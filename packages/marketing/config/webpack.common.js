@@ -8,7 +8,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             // preset-react: babel will process all the jsx tags that is added to our file (related-code)
-            // preset-env: convert all the ES versions to ES5
+            // preset-env: convert all the ES versions to the ES5
             presets: ["@babel/preset-react", "@babel/preset-env"],
             //  
             plugins: ["@babel/plugin-transform-runtime"],
