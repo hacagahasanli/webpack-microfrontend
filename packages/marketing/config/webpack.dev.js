@@ -12,9 +12,9 @@ const devConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./plugin/index.html",
+      template: "./public/index.html",
     }),
   ],
 };
-
+ 
 module.exports = merge(commonConfig, devConfig)
