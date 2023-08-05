@@ -12,7 +12,7 @@ export default () => {
         <BrowserRouter>
           <Switch>
             <Route exact path="/pricing" component={Pricing} />
-            <Route path="/" element={Album} />
+            <Route path="/" component={Album} />
           </Switch>
         </BrowserRouter>
       </StylesProvider>
